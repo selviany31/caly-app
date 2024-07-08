@@ -1,0 +1,4143 @@
+export const category = [
+  'Kesehatan',
+  'Aksesoris Fashion',
+  'Elektronik',
+  'Elektronik (Kelistrikan)',
+  'Pakaian Pria',
+  'Sepatu Pria',
+  'Handphone & Aksesoris',
+  'Fashion Muslim',
+  'Koper & Tas Travel',
+  'Tas Wanita',
+  'Pakaian Wanita',
+  'Sepatu Wanita',
+  'Tas Pria',
+  'Jam Tangan',
+  'Audio',
+  'Makanan & Minuman',
+  'Perawatan & Kecantikan',
+  'Ibu & Bayi',
+  'Fashion Bayi & Anak',
+  'Kamera & Drone',
+  'Perlengkapan Rumah',
+  'Olahraga & Outdoor',
+  'Buku & Alat Tulis',
+  'Hobi & Koleksi',
+  'Mobil',
+  'Sepeda Motor',
+  'Tiket, Voucher, & Layanan',
+  'Buku & Majalah',
+  'Gaming & Konsol',
+  'Komputer & Aksesoris',
+  'Hewan Peliharaan',
+];
+
+export const subCategory = [
+  {
+    label: 'Hand Sanitizer',
+    category: 'Kesehatan',
+    value: 'A',
+  },
+  {
+    label: 'Perawatan Mata',
+    category: 'Kesehatan',
+    value: 'A',
+  },
+  {
+    label: 'Perawatan Telinga',
+    category: 'Kesehatan',
+    value: 'A',
+  },
+  {
+    label: 'Perawatan Mulut',
+    category: 'Kesehatan',
+    value: 'A',
+  },
+  {
+    label: 'Popok Dewasa',
+    category: 'Kesehatan',
+    value: 'A',
+  },
+  {
+    label: 'Kewanitaan',
+    category: 'Kesehatan',
+    value: 'A',
+  },
+  {
+    label: 'Alat Pijat & Terapi',
+    category: 'Kesehatan',
+    value: 'A',
+  },
+  {
+    label: 'Obat Nyamuk',
+    category: 'Kesehatan',
+    value: 'A',
+  },
+  {
+    label: 'Perawatan Diri lainnya',
+    category: 'Kesehatan',
+    value: 'A',
+  },
+  {
+    label: 'Diet & Detoks',
+    category: 'Kesehatan',
+    value: 'B',
+  },
+  {
+    label: 'Suplemen Kecantikan',
+    category: 'Kesehatan',
+    value: 'B',
+  },
+  {
+    label: 'Kebugaran',
+    category: 'Kesehatan',
+    value: 'B',
+  },
+  {
+    label: 'Kesejahteraan',
+    category: 'Kesehatan',
+    value: 'B',
+  },
+  {
+    label: 'Suplemen Makanan lainnya',
+    category: 'Kesehatan',
+    value: 'B',
+  },
+  {
+    label: 'Kesehatan lainnya',
+    category: 'Kesehatan',
+    value: 'B',
+  },
+  {
+    label: 'Obat Bebas',
+    category: 'Kesehatan',
+    value: 'B',
+  },
+  {
+    label: 'Obat Tradisional',
+    category: 'Kesehatan',
+    value: 'B',
+  },
+  {
+    label: 'Alat Tes & Monitor',
+    category: 'Kesehatan',
+    value: 'B',
+  },
+  {
+    label: 'Timbangan & Alat Ukur Kadar Lemak',
+    category: 'Kesehatan',
+    value: 'B',
+  },
+  {
+    label: 'Perawatan Hidung & Pernafasan',
+    category: 'Kesehatan',
+    value: 'B',
+  },
+  {
+    label: 'P3K',
+    category: 'Kesehatan',
+    value: 'B',
+  },
+  {
+    label: 'Stetoskop',
+    category: 'Kesehatan',
+    value: 'B',
+  },
+  {
+    label: 'Obat Pereda Nyeri',
+    category: 'Kesehatan',
+    value: 'B',
+  },
+  {
+    label: 'Alat Laboratorium',
+    category: 'Kesehatan',
+    value: 'B',
+  },
+  {
+    label: 'Sarung Tangan & Masker Medis',
+    category: 'Kesehatan',
+    value: 'B',
+  },
+  {
+    label: 'Alat Bantu Cedera & Disabilitas',
+    category: 'Kesehatan',
+    value: 'B',
+  },
+  {
+    label: 'Alat Medis lainnya',
+    category: 'Kesehatan',
+    value: 'B',
+  },
+  {
+    label: 'Kondom',
+    category: 'Kesehatan',
+    value: 'B',
+  },
+  {
+    label: 'Pelumas, Penunjang Performa, Kesehatan Seksual lainnya',
+    category: 'Kesehatan',
+    value: 'B',
+  },
+  {
+    label: 'Cincin',
+    category: 'Aksesoris Fashion',
+    value: 'A',
+  },
+  {
+    label: 'Anting',
+    category: 'Aksesoris Fashion',
+    value: 'A',
+  },
+  { label: 'Syal & Selendang', category: 'Aksesoris Fashion', value: 'A' },
+  {
+    label: 'Sarung Tangan',
+    category: 'Aksesoris Fashion',
+    value: 'A',
+  },
+  {
+    label: 'Aksesoris Rambut',
+    category: 'Aksesoris Fashion',
+    value: 'A',
+  },
+  {
+    label: 'Gelang Tangan & Bangle',
+    category: 'Aksesoris Fashion',
+    value: 'A',
+  },
+  {
+    label: 'Gelang Kaki',
+    category: 'Aksesoris Fashion',
+    value: 'A',
+  },
+  {
+    label: 'Topi',
+    category: 'Aksesoris Fashion',
+    value: 'A',
+  },
+  {
+    label: 'Kalung',
+    category: 'Aksesoris Fashion',
+    value: 'A',
+  },
+  {
+    label: 'Kacamata & Aksesoris',
+    category: 'Aksesoris Fashion',
+    value: 'A',
+  },
+  {
+    label: 'Ikat Pinggang',
+    category: 'Aksesoris Fashion',
+    value: 'A',
+  },
+  {
+    label: 'Dasi',
+    category: 'Aksesoris Fashion',
+    value: 'A',
+  },
+  {
+    label: 'Bros & Pin',
+    category: 'Aksesoris Fashion',
+    value: 'A',
+  },
+  {
+    label: 'Bordir',
+    category: 'Aksesoris Fashion',
+    value: 'A',
+  },
+  {
+    label: 'Liontin',
+    category: 'Aksesoris Fashion',
+    value: 'A',
+  },
+  {
+    label: 'Kancing Manset',
+    category: 'Aksesoris Fashion',
+    value: 'A',
+  },
+  {
+    label: 'Tato Temporer',
+    category: 'Aksesoris Fashion',
+    value: 'A',
+  },
+  {
+    label: 'Masker',
+    category: 'Aksesoris Fashion',
+    value: 'A',
+  },
+  {
+    label: 'Sapu Tangan',
+    category: 'Aksesoris Fashion',
+    value: 'A',
+  },
+  {
+    label: 'Aksesoris Tambahan lainnya',
+    category: 'Aksesoris Fashion',
+    value: 'A',
+  },
+  {
+    label: 'Set & Paket Aksesoris',
+    category: 'Aksesoris Fashion',
+    value: 'A',
+  },
+  {
+    label: 'Aksesoris Fashion lainnya',
+    category: 'Aksesoris Fashion',
+    value: 'A',
+  },
+  {
+    label: 'Logam Mulia',
+    category: 'Aksesoris Fashion',
+    value: 'C',
+  },
+  {
+    label: 'Perhiasan Berharga',
+    category: 'Aksesoris Fashion',
+    value: 'C',
+  },
+  {
+    label: 'Stop Kontak & Sambungan Kabel',
+    category: 'Elektronik (Kelistrikan)',
+    value: 'A',
+  },
+  {
+    label: 'Pengaman Stop Kontak',
+    category: 'Elektronik (Kelistrikan)',
+    value: 'A',
+  },
+  {
+    label: 'Penghemat Listrik',
+    category: 'Elektronik (Kelistrikan)',
+    value: 'A',
+  },
+  {
+    label: 'Bel',
+    category: 'Elektronik (Kelistrikan)',
+    value: 'A',
+  },
+  {
+    label: 'Saklar',
+    category: 'Elektronik (Kelistrikan)',
+    value: 'A',
+  },
+  {
+    label: 'Alarm',
+    category: 'Elektronik (Kelistrikan)',
+    value: 'A',
+  },
+  {
+    label: 'Anti Petir',
+    category: 'Elektronik (Kelistrikan)',
+    value: 'A',
+  },
+  {
+    label: 'Kelistrikan lainnya',
+    category: 'Elektronik (Kelistrikan)',
+    value: 'A',
+  },
+  {
+    label: 'Telepon',
+    category: 'Elektronik',
+    value: 'B',
+  },
+  {
+    label: 'Water Heater',
+    category: 'Elektronik',
+    value: 'B',
+  },
+  {
+    label: 'Penghangat Ruangan',
+    category: 'Elektronik',
+    value: 'B',
+  },
+  {
+    label: 'TV',
+    category: 'Elektronik',
+    value: 'B',
+  },
+  {
+    label: 'Alat Elektronik Tambahan',
+    category: 'Elektronik',
+    value: 'B',
+  },
+  {
+    label: 'Aksesoris Handphone',
+    category: 'Elektronik',
+    value: 'B',
+  },
+  {
+    label:
+      'Barang Kebutuhan Sehari-hari (Kesehatan, Makanan & Minuman, Ibu & Bayi)',
+    category: 'Elektronik',
+    value: 'B',
+  },
+  {
+    label: 'Hewan Peliharaan',
+    category: 'Elektronik',
+    value: 'B',
+  },
+  {
+    label: 'Hobi & Koleksi',
+    category: 'Elektronik',
+    value: 'B',
+  },
+  {
+    label: 'Aksesoris Komputer',
+    category: 'Elektronik',
+    value: 'B',
+  },
+  {
+    label: 'Pointer',
+    category: 'Elektronik',
+    value: 'C',
+  },
+  {
+    label: 'Proyektor',
+    category: 'Elektronik',
+    value: 'C',
+  },
+  {
+    label: 'Layar Proyektor & Aksesoris lainnya',
+    category: 'Elektronik',
+    value: 'C',
+  },
+  {
+    label: 'Mesin Jahit & Aksesoris',
+    category: 'Elektronik',
+    value: 'C',
+  },
+  {
+    label: 'Setrika & Mesin Uap',
+    category: 'Elektronik',
+    value: 'C',
+  },
+  {
+    label: 'Purifier',
+    category: 'Elektronik',
+    value: 'C',
+  },
+  {
+    label: 'Humidifier',
+    category: 'Elektronik',
+    value: 'C',
+  },
+  {
+    label: 'Penyedot Debu & Peralatan Perawatan Lantai',
+    category: 'Elektronik',
+    value: 'C',
+  },
+  {
+    label: 'Mesin Cuci & Pengering',
+    category: 'Elektronik',
+    value: 'C',
+  },
+  {
+    label: 'Mesin Cuci & Pengering',
+    category: 'Elektronik',
+    value: 'C',
+  },
+  {
+    label: 'Pendingin Ruangan',
+    category: 'Elektronik',
+    value: 'C',
+  },
+  {
+    label: 'Dispenser & Filter Air',
+    category: 'Elektronik',
+    value: 'C',
+  },
+  {
+    label: 'Pemanas Air',
+    category: 'Elektronik',
+    value: 'C',
+  },
+  {
+    label: 'Kulkas Wine',
+    category: 'Elektronik',
+    value: 'C',
+  },
+  {
+    label: 'Juicer',
+    category: 'Elektronik',
+    value: 'C',
+  },
+  {
+    label: 'Blender & Mesin Kacang Kedelai',
+    category: 'Elektronik',
+    value: 'C',
+  },
+  {
+    label: 'Mesin Kopi & Aksesoris',
+    category: 'Elektronik',
+    value: 'C',
+  },
+  {
+    label: 'Mixer',
+    category: 'Elektronik',
+    value: 'C',
+  },
+  {
+    label: 'Dishwashers',
+    category: 'Elektronik',
+    value: 'C',
+  },
+  {
+    label: 'Kompor & Regulator Gas',
+    category: 'Elektronik',
+    value: 'C',
+  },
+  {
+    label: 'Air Fryer',
+    category: 'Elektronik',
+    value: 'C',
+  },
+  {
+    label: 'Deep Fryer',
+    category: 'Elektronik',
+    value: 'C',
+  },
+  {
+    label: 'Microwave',
+    category: 'Elektronik',
+    value: 'C',
+  },
+  {
+    label: 'Oven',
+    category: 'Elektronik',
+    value: 'C',
+  },
+  {
+    label: 'Pemanggang Roti',
+    category: 'Elektronik',
+    value: 'C',
+  },
+  {
+    label: 'Food Processor & Penggiling Daging',
+    category: 'Elektronik',
+    value: 'C',
+  },
+  {
+    label: 'Alat Masak Serbaguna',
+    category: 'Elektronik',
+    value: 'C',
+  },
+  {
+    label: 'Panci Presto',
+    category: 'Elektronik',
+    value: 'C',
+  },
+  {
+    label: 'Slow Cooker & Mesin Sous Vide',
+    category: 'Elektronik',
+    value: 'C',
+  },
+  {
+    label: 'Penanak Nasi',
+    category: 'Elektronik',
+    value: 'C',
+  },
+  {
+    label: 'Pembuat Waffle & Crepe',
+    category: 'Elektronik',
+    value: 'C',
+  },
+  {
+    label: 'Perebus Telur',
+    category: 'Elektronik',
+    value: 'C',
+  },
+  {
+    label: 'Pembuat Roti',
+    category: 'Elektronik',
+    value: 'C',
+  },
+  {
+    label: 'Pembuat Takoyaki',
+    category: 'Elektronik',
+    value: 'C',
+  },
+  {
+    label: 'Pembuat Dessert',
+    category: 'Elektronik',
+    value: 'C',
+  },
+  {
+    label: 'Pembuat Soda',
+    category: 'Elektronik',
+    value: 'C',
+  },
+  {
+    label: 'Kulkas',
+    category: 'Elektronik',
+    value: 'C',
+  },
+  {
+    label: 'Freezer',
+    category: 'Elektronik',
+    value: 'C',
+  },
+  {
+    label: 'Penghisap Asap Dapur',
+    category: 'Elektronik',
+    value: 'C',
+  },
+  {
+    label: 'Perangkat Dapur & Peralatan Masak Khusus lainnya',
+    category: 'Elektronik',
+    value: 'C',
+  },
+  {
+    label: 'Celana Panjang Jeans',
+    category: 'Pakaian Pria',
+    value: 'A',
+  },
+  {
+    label: 'Hoodie & Sweatshirt',
+    category: 'Pakaian Pria',
+    value: 'A',
+  },
+  {
+    label: 'Sweater & Cardigan',
+    category: 'Pakaian Pria',
+    value: 'A',
+  },
+  {
+    label: 'Jaket, Mantel, & Rompi',
+    category: 'Pakaian Pria',
+    value: 'A',
+  },
+  {
+    label: 'Jas Formal',
+    category: 'Pakaian Pria',
+    value: 'A',
+  },
+  {
+    label: 'Celana Panjang',
+    category: 'Pakaian Pria',
+    value: 'A',
+  },
+  {
+    label: 'Celana Pendek',
+    category: 'Pakaian Pria',
+    value: 'A',
+  },
+  {
+    label: 'Atasan',
+    category: 'Pakaian Pria',
+    value: 'A',
+  },
+  {
+    label: 'Pakaian Dalam',
+    category: 'Pakaian Pria',
+    value: 'A',
+  },
+  {
+    label: 'Pakaian Tidur',
+    category: 'Pakaian Pria',
+    value: 'A',
+  },
+  {
+    label: 'Set Pakaian Pria',
+    category: 'Pakaian Pria',
+    value: 'A',
+  },
+  {
+    label: 'Pakaian Tradisional',
+    category: 'Pakaian Pria',
+    value: 'A',
+  },
+  {
+    label: 'Kostum',
+    category: 'Pakaian Pria',
+    value: 'A',
+  },
+  {
+    label: 'Pakaian Kerja',
+    category: 'Pakaian Pria',
+    value: 'A',
+  },
+  {
+    label: 'Kaos Kaki',
+    category: 'Pakaian Pria',
+    value: 'A',
+  },
+  {
+    label: 'Pakaian Pria lainnya',
+    category: 'Pakaian Pria',
+    value: 'A',
+  },
+  {
+    label: 'Boot',
+    category: 'Sepatu Pria',
+    value: 'A',
+  },
+  {
+    label: 'Sneakers',
+    category: 'Sepatu Pria',
+    value: 'A',
+  },
+  {
+    label: 'Slip-On & Mules',
+    category: 'Sepatu Pria',
+    value: 'A',
+  },
+  {
+    label: 'Loafer',
+    category: 'Sepatu Pria',
+    value: 'A',
+  },
+  {
+    label: 'Oxford',
+    category: 'Sepatu Pria',
+    value: 'A',
+  },
+  {
+    label: 'Sandal',
+    category: 'Sepatu Pria',
+    value: 'A',
+  },
+  {
+    label: 'Alat Perawatan & Pembersih Sepatu',
+    category: 'Sepatu Pria',
+    value: 'A',
+  },
+  {
+    label: 'Parfum Sepatu',
+    category: 'Sepatu Pria',
+    value: 'A',
+  },
+  {
+    label: 'Tali Sepatu',
+    category: 'Sepatu Pria',
+    value: 'A',
+  },
+  {
+    label: 'Shoe Tree & Horns',
+    category: 'Sepatu Pria',
+    value: 'A',
+  },
+  {
+    label: 'Insole Sepatu',
+    category: 'Sepatu Pria',
+    value: 'A',
+  },
+  {
+    label: 'Aksesoris & Perawatan Sepatu lainnya',
+    category: 'Sepatu Pria',
+    value: 'A',
+  },
+  {
+    label: 'Sepatu Pria lainnya',
+    category: 'Sepatu Pria',
+    value: 'A',
+  },
+  {
+    label: 'Kartu Perdana',
+    category: 'Handphone & Aksesoris',
+    value: 'A',
+  },
+  {
+    label: 'Handphone & Aksesoris lainnya',
+    category: 'Handphone & Aksesoris',
+    value: 'A',
+  },
+  {
+    label: 'Smartwatch & Fitness Tracker',
+    category: 'Handphone & Aksesoris',
+    value: 'A',
+  },
+  {
+    label: 'Perangkat VR',
+    category: 'Handphone & Aksesoris',
+    value: 'A',
+  },
+  {
+    label: 'Pelacak GPS',
+    category: 'Handphone & Aksesoris',
+    value: 'A',
+  },
+  {
+    label: 'Perangkat Wearable lainnya',
+    category: 'Handphone & Aksesoris',
+    value: 'A',
+  },
+  {
+    label: 'Tongsis',
+    category: 'Handphone & Aksesoris',
+    value: 'A',
+  },
+  {
+    label: 'Lazypod',
+    category: 'Handphone & Aksesoris',
+    value: 'A',
+  },
+  {
+    label: 'Tomsis',
+    category: 'Handphone & Aksesoris',
+    value: 'A',
+  },
+  {
+    label: 'Aksesoris Selfie lainnya',
+    category: 'Handphone & Aksesoris',
+    value: 'A',
+  },
+  {
+    label: 'Lensa Tambahan Handphone',
+    category: 'Handphone & Aksesoris',
+    value: 'A',
+  },
+  {
+    label: 'Flash & Lampu Selfie Handphone',
+    category: 'Handphone & Aksesoris',
+    value: 'A',
+  },
+  {
+    label: 'Kipas USB',
+    category: 'Handphone & Aksesoris',
+    value: 'A',
+  },
+  {
+    label: 'Stylus',
+    category: 'Handphone & Aksesoris',
+    value: 'A',
+  },
+  {
+    label: 'Phone Holder',
+    category: 'Handphone & Aksesoris',
+    value: 'A',
+  },
+  {
+    label: 'Tali & Gantungan Handphone',
+    category: 'Handphone & Aksesoris',
+    value: 'A',
+  },
+  {
+    label: 'Pouch Handphone',
+    category: 'Handphone & Aksesoris',
+    value: 'A',
+  },
+  {
+    label: 'Casing',
+    category: 'Handphone & Aksesoris',
+    value: 'A',
+  },
+  {
+    label: 'Penggulung, & Pengikat Kabel',
+    category: 'Handphone & Aksesoris',
+    value: 'A',
+  },
+  {
+    label: 'Travel Adaptor',
+    category: 'Handphone & Aksesoris',
+    value: 'A',
+  },
+  {
+    label: 'Kabel & Adaptor Handphone',
+    category: 'Handphone & Aksesoris',
+    value: 'A',
+  },
+  {
+    label: 'Charger',
+    category: 'Handphone & Aksesoris',
+    value: 'A',
+  },
+  {
+    label: 'Charger Docking',
+    category: 'Handphone & Aksesoris',
+    value: 'A',
+  },
+  {
+    label: 'Kabel',
+    category: 'Handphone & Aksesoris',
+    value: 'A',
+  },
+  {
+    label: 'Charger & Adaptor lainnya',
+    category: 'Handphone & Aksesoris',
+    value: 'A',
+  },
+  {
+    label: 'Baterai',
+    category: 'Handphone & Aksesoris',
+    value: 'A',
+  },
+  {
+    label: 'Powerbank',
+    category: 'Handphone & Aksesoris',
+    value: 'A',
+  },
+  {
+    label: 'Powercase',
+    category: 'Handphone & Aksesoris',
+    value: 'A',
+  },
+  {
+    label: 'Powerbank & Baterai lainnya',
+    category: 'Handphone & Aksesoris',
+    value: 'A',
+  },
+  {
+    label: 'Aksesoris Perangkat Wearable',
+    category: 'Handphone & Aksesoris',
+    value: 'A',
+  },
+  {
+    label: 'Pelindung Layar Handphone',
+    category: 'Handphone & Aksesoris',
+    value: 'A',
+  },
+  {
+    label: 'Casing & Skin',
+    category: 'Handphone & Aksesoris',
+    value: 'A',
+  },
+  {
+    label: 'Aksesoris lainnya',
+    category: 'Handphone & Aksesoris',
+    value: 'A',
+  },
+  {
+    label: 'Alat Casting',
+    category: 'Handphone & Aksesoris',
+    value: 'B',
+  },
+  {
+    label: 'Walkie Talkie',
+    category: 'Handphone & Aksesoris',
+    value: 'B',
+  },
+  {
+    label: 'Kartu Memori',
+    category: 'Handphone & Aksesoris',
+    value: 'B',
+  },
+  {
+    label: 'USB & Lampu Handphone',
+    category: 'Handphone & Aksesoris',
+    value: 'B',
+  },
+  {
+    label: 'Modem',
+    category: 'Handphone & Aksesoris',
+    value: 'B',
+  },
+  {
+    label: 'Tablet',
+    category: 'Handphone & Aksesoris',
+    value: 'C',
+  },
+  {
+    label: 'Handphone',
+    category: 'Handphone & Aksesoris',
+    value: 'C',
+  },
+  {
+    label: 'Hijab',
+    category: 'Fashion Muslim',
+    value: 'A',
+  },
+  {
+    label: 'Aksesoris Hijab',
+    category: 'Fashion Muslim',
+    value: 'A',
+  },
+  {
+    label: 'Kaos Kaki',
+    category: 'Fashion Muslim',
+    value: 'A',
+  },
+  {
+    label: 'Handsock',
+    category: 'Fashion Muslim',
+    value: 'A',
+  },
+  {
+    label: 'Aksesoris lainnya',
+    category: 'Fashion Muslim',
+    value: 'A',
+  },
+  {
+    label: 'Baju Olahraga Muslim',
+    category: 'Fashion Muslim',
+    value: 'A',
+  },
+  {
+    label: 'Baju Renang Muslim',
+    category: 'Fashion Muslim',
+    value: 'A',
+  },
+  {
+    label: 'Tunik',
+    category: 'Fashion Muslim',
+    value: 'A',
+  },
+  {
+    label: 'Kemeja',
+    category: 'Fashion Muslim',
+    value: 'A',
+  },
+  {
+    label: 'Blouse & Dalaman Blouse',
+    category: 'Fashion Muslim',
+    value: 'A',
+  },
+  {
+    label: 'Atasan Menyusui',
+    category: 'Fashion Muslim',
+    value: 'A',
+  },
+  {
+    label: 'Atasan Muslim lainnya',
+    category: 'Fashion Muslim',
+    value: 'A',
+  },
+  {
+    label: 'Gamis',
+    category: 'Fashion Muslim',
+    value: 'A',
+  },
+  {
+    label: 'Abaya',
+    category: 'Fashion Muslim',
+    value: 'A',
+  },
+  {
+    label: 'Dress Menyusui',
+    category: 'Fashion Muslim',
+    value: 'A',
+  },
+  {
+    label: 'Kaftan',
+    category: 'Fashion Muslim',
+    value: 'A',
+  },
+  {
+    label: 'Baju Kelelawar',
+    category: 'Fashion Muslim',
+    value: 'A',
+  },
+  {
+    label: 'Baju Kurung',
+    category: 'Fashion Muslim',
+    value: 'A',
+  },
+  {
+    label: 'Set Baju Muslim',
+    category: 'Fashion Muslim',
+    value: 'A',
+  },
+  {
+    label: 'Jumpsuit',
+    category: 'Fashion Muslim',
+    value: 'A',
+  },
+  {
+    label: 'Dress Muslim lainnya',
+    category: 'Fashion Muslim',
+    value: 'A',
+  },
+  {
+    label: 'Rok',
+    category: 'Fashion Muslim',
+    value: 'A',
+  },
+  {
+    label: 'Celana Panjang',
+    category: 'Fashion Muslim',
+    value: 'A',
+  },
+  {
+    label: 'Legging',
+    category: 'Fashion Muslim',
+    value: 'A',
+  },
+  {
+    label: 'Celana Palazzo',
+    category: 'Fashion Muslim',
+    value: 'A',
+  },
+  {
+    label: 'Bawahan Muslim lainnya',
+    category: 'Fashion Muslim',
+    value: 'A',
+  },
+  {
+    label: 'Pakaian Muslim Wanita lainnya',
+    category: 'Fashion Muslim',
+    value: 'A',
+  },
+  {
+    label: 'Set Perlengkapan Sholat',
+    category: 'Fashion Muslim',
+    value: 'A',
+  },
+  {
+    label: 'Sajadah',
+    category: 'Fashion Muslim',
+    value: 'A',
+  },
+  {
+    nane: 'Peci',
+    category: 'Fashion Muslim',
+    value: 'A',
+  },
+  {
+    label: 'Mukena Dewasa',
+    category: 'Fashion Muslim',
+    value: 'A',
+  },
+  {
+    label: 'Mukena Travel',
+    category: 'Fashion Muslim',
+    value: 'A',
+  },
+  {
+    label: 'Mukena & Perlengkapan Sholat lainnya',
+    category: 'Fashion Muslim',
+    value: 'A',
+  },
+  {
+    label: 'Atasan',
+    category: 'Fashion Muslim',
+    value: 'A',
+  },
+  {
+    label: 'Gamis Pria',
+    category: 'Fashion Muslim',
+    value: 'A',
+  },
+  {
+    label: 'Celana',
+    category: 'Fashion Muslim',
+    value: 'A',
+  },
+  {
+    label: 'Sarung',
+    category: 'Fashion Muslim',
+    value: 'A',
+  },
+  {
+    label: 'Baju Melayu',
+    category: 'Fashion Muslim',
+    value: 'A',
+  },
+  {
+    label: 'Pakaian Muslim Pria lainnya',
+    category: 'Fashion Muslim',
+    value: 'A',
+  },
+  {
+    label: 'Hijab Anak',
+    category: 'Fashion Muslim',
+    value: 'A',
+  },
+  {
+    label: 'Mukena Anak',
+    category: 'Fashion Muslim',
+    value: 'A',
+  },
+  {
+    label: 'Pakaian & Set Muslim Anak',
+    category: 'Fashion Muslim',
+    value: 'A',
+  },
+  {
+    label: 'Pakaian Muslim Anak Perempuan lainnya',
+    category: 'Fashion Muslim',
+    value: 'A',
+  },
+  {
+    label: 'Pakaian Muslim Anak Laki-Laki',
+    category: 'Fashion Muslim',
+    value: 'A',
+  },
+  {
+    label: 'Pakaian Muslim Anak lainnya',
+    category: 'Fashion Muslim',
+    value: 'A',
+  },
+  {
+    label: 'Rompi, Jaket, Mantel, Cardigan, Outerwear lainnya,',
+    category: 'Fashion Muslim',
+    value: 'A',
+  },
+  {
+    label: 'Set Fashion Muslim lainnya',
+    category: 'Fashion Muslim',
+    value: 'A',
+  },
+  {
+    label: 'Koper',
+    category: 'Koper & Tas Travel',
+    value: 'A',
+  },
+  {
+    label: 'Tas Duffel',
+    category: 'Koper & Tas Travel',
+    value: 'A',
+  },
+  {
+    label: 'Tas Lipat',
+    category: 'Koper & Tas Travel',
+    value: 'A',
+  },
+  {
+    label: 'Tas Serut',
+    category: 'Koper & Tas Travel',
+    value: 'A',
+  },
+  {
+    label: 'Tas Travel lainnya',
+    category: 'Koper & Tas Travel',
+    value: 'A',
+  },
+  {
+    label: 'Passport Cover',
+    category: 'Koper & Tas Travel',
+    value: 'A',
+  },
+  {
+    label: 'Organizer Travel',
+    category: 'Koper & Tas Travel',
+    value: 'A',
+  },
+  {
+    label: 'Pelindung & Sarung Koper',
+    category: 'Koper & Tas Travel',
+    value: 'A',
+  },
+  {
+    label: 'Tag Koper',
+    category: 'Koper & Tas Travel',
+    value: 'A',
+  },
+  {
+    label: 'Strap Koper',
+    category: 'Koper & Tas Travel',
+    value: 'A',
+  },
+  {
+    label: 'Gembok Koper',
+    category: 'Koper & Tas Travel',
+    value: 'A',
+  },
+  {
+    label: 'Timbangan Koper',
+    category: 'Koper & Tas Travel',
+    value: 'A',
+  },
+  {
+    label: 'Bantal Leher & Penutup Mata',
+    category: 'Koper & Tas Travel',
+    value: 'A',
+  },
+  {
+    label: 'Botol & Wadah Isi Ulang',
+    category: 'Koper & Tas Travel',
+    value: 'A',
+  },
+  {
+    label: 'Aksesoris Travel lainnya',
+    category: 'Koper & Tas Travel',
+    value: 'A',
+  },
+  {
+    label: 'Koper & Tas Travel lainnya',
+    category: 'Koper & Tas Travel',
+    value: 'A',
+  },
+  {
+    label: 'Ransel Wanita',
+    category: 'Tas Wanita',
+    value: 'A',
+  },
+  {
+    label: 'Tas Laptop',
+    category: 'Tas Wanita',
+    value: 'A',
+  },
+  {
+    label: 'Clutch',
+    category: 'Tas Wanita',
+    value: 'A',
+  },
+  {
+    label: 'Tas Pinggang Wanita',
+    category: 'Tas Wanita',
+    value: 'A',
+  },
+  {
+    label: 'Tote Bag',
+    category: 'Tas Wanita',
+    value: 'A',
+  },
+  {
+    label: 'Top Handle Bag',
+    category: 'Tas Wanita',
+    value: 'A',
+  },
+  {
+    label: 'Tas Selempang & Bahu Wanita',
+    category: 'Tas Wanita',
+    value: 'A',
+  },
+  {
+    label: 'Dompet Wanita',
+    category: 'Tas Wanita',
+    value: 'A',
+  },
+  {
+    label: 'Aksesoris Tas',
+    category: 'Tas Wanita',
+    value: 'A',
+  },
+  {
+    label: 'Tas Wanita lainnya',
+    category: 'Tas Wanita',
+    value: 'A',
+  },
+  {
+    label: 'Atasan',
+    category: 'Pakaian Wanita',
+    value: 'A',
+  },
+  {
+    label: 'Celana Panjang & Legging',
+    category: 'Pakaian Wanita',
+    value: 'A',
+  },
+  {
+    label: 'Celana Pendek',
+    category: 'Pakaian Wanita',
+    value: 'A',
+  },
+  {
+    label: 'Rok',
+    category: 'Pakaian Wanita',
+    value: 'A',
+  },
+  {
+    label: 'Celana Panjang Jeans',
+    category: 'Pakaian Wanita',
+    value: 'A',
+  },
+  {
+    label: 'Dress',
+    category: 'Pakaian Wanita',
+    value: 'A',
+  },
+  {
+    label: 'Wedding Dress',
+    category: 'Pakaian Wanita',
+    value: 'A',
+  },
+  {
+    label: 'Jumpsuit',
+    category: 'Pakaian Wanita',
+    value: 'A',
+  },
+  {
+    label: 'Playsuit, & Overall',
+    category: 'Pakaian Wanita',
+    value: 'A',
+  },
+  {
+    label: 'Jaket, Mantel, & Rompi',
+    category: 'Pakaian Wanita',
+    value: 'A',
+  },
+  {
+    label: 'Sweater & Cardigan',
+    category: 'Pakaian Wanita',
+    value: 'A',
+  },
+  {
+    label: 'Hoodie & Sweatshirt',
+    category: 'Pakaian Wanita',
+    value: 'A',
+  },
+  {
+    label: 'Set, Pakaian Dalam',
+    category: 'Pakaian Wanita',
+    value: 'A',
+  },
+  {
+    label: 'Pakaian Tidur & Piyama',
+    category: 'Pakaian Wanita',
+    value: 'A',
+  },
+  {
+    label: 'Baju Hamil',
+    category: 'Pakaian Wanita',
+    value: 'A',
+  },
+  {
+    label: 'Pakaian Tradisional',
+    category: 'Pakaian Wanita',
+    value: 'A',
+  },
+  {
+    label: 'Kostum',
+    category: 'Pakaian Wanita',
+    value: 'A',
+  },
+  {
+    label: 'Kain',
+    category: 'Pakaian Wanita',
+    value: 'A',
+  },
+  {
+    label: 'Kaos Kaki & Stocking',
+    category: 'Pakaian Wanita',
+    value: 'A',
+  },
+  {
+    label: 'Pakaian Wanita lainnya',
+    category: 'Pakaian Wanita',
+    value: 'A',
+  },
+  {
+    label: 'Boots',
+    category: 'Sepatu Wanita',
+    value: 'A',
+  },
+  {
+    label: 'Sneakers',
+    category: 'Sepatu Wanita',
+    value: 'A',
+  },
+  {
+    label: 'Sepatu Flat',
+    category: 'Sepatu Wanita',
+    value: 'A',
+  },
+  {
+    label: 'Heels',
+    category: 'Sepatu Wanita',
+    value: 'A',
+  },
+  {
+    label: 'Wedges',
+    category: 'Sepatu Wanita',
+    value: 'A',
+  },
+  {
+    label: 'Sandal Jepit & Sandal lainnya',
+    category: 'Sepatu Wanita',
+    value: 'A',
+  },
+  {
+    label: 'Aksesoris & Perawatan Sepatu',
+    category: 'Sepatu Wanita',
+    value: 'A',
+  },
+  {
+    label: 'Sepatu Wanita lainnya',
+    category: 'Sepatu Wanita',
+    value: 'A',
+  },
+  {
+    label: 'Ransel Pria',
+    category: 'Tas Pria',
+    value: 'A',
+  },
+  {
+    label: 'Tas Laptop',
+    category: 'Tas Pria',
+    value: 'A',
+  },
+  {
+    label: 'Tote Bag',
+    category: 'Tas Pria',
+    value: 'A',
+  },
+  {
+    label: 'Tas Kerja',
+    category: 'Tas Pria',
+    value: 'A',
+  },
+  {
+    label: 'Clutch',
+    category: 'Tas Pria',
+    value: 'A',
+  },
+  {
+    label: 'Tas Pinggang Pria',
+    category: 'Tas Pria',
+    value: 'A',
+  },
+  {
+    label: 'Tas Selempang & Bahu Pria',
+    category: 'Tas Pria',
+    value: 'A',
+  },
+  {
+    label: 'Dompet',
+    category: 'Tas Pria',
+    value: 'A',
+  },
+  {
+    label: 'Tas Pria lainnya',
+    category: 'Tas Pria',
+    value: 'A',
+  },
+  {
+    label: 'Jam Tangan Wanita',
+    category: 'Jam Tangan',
+    value: 'A',
+  },
+  {
+    label: 'Jam Tangan Pria',
+    category: 'Jam Tangan',
+    value: 'A',
+  },
+  {
+    label: 'Jam Tangan Couple',
+    category: 'Jam Tangan',
+    value: 'A',
+  },
+  {
+    label: 'Aksesoris Jam Tangan',
+    category: 'Jam Tangan',
+    value: 'A',
+  },
+  {
+    label: 'Jam Tangan lainnya',
+    category: 'Jam Tangan',
+    value: 'A',
+  },
+  {
+    label: 'Kabel & Konverter Audio & Video',
+    category: 'Audio',
+    value: 'A',
+  },
+  {
+    label: 'MP3 & MP4 Player',
+    category: 'Audio',
+    value: 'B',
+  },
+  {
+    label: 'CD, DVD, & Blu-ray Player',
+    category: 'Audio',
+    value: 'B',
+  },
+  {
+    label: 'Radio & Pemutar Kaset',
+    category: 'Audio',
+    value: 'B',
+  },
+  {
+    label: 'Amplifier & Mixer',
+    category: 'Audio',
+    value: 'B',
+  },
+  {
+    label: 'Home Theater & Karaoke',
+    category: 'Audio',
+    value: 'B',
+  },
+  {
+    label: 'Earphone, Headphone, & Headset',
+    category: 'Audio',
+    value: 'B',
+  },
+  {
+    label: 'Voice Recorder',
+    category: 'Audio',
+    value: 'B',
+  },
+  {
+    label: 'Media Player lainnya',
+    category: 'Audio',
+    value: 'B',
+  },
+  {
+    label: 'Mikrofon & Aksesoris',
+    category: 'Audio',
+    value: 'B',
+  },
+  {
+    label: 'Speaker',
+    category: 'Audio',
+    value: 'B',
+  },
+  {
+    label: 'AV Receiver',
+    category: 'Audio',
+    value: 'B',
+  },
+  {
+    label: 'Perangkat Audio & Speaker lainnya',
+    category: 'Audio',
+    value: 'B',
+  },
+  {
+    label: 'Audio lainnya',
+    category: 'Audio',
+    value: 'B',
+  },
+  {
+    label: 'Biskuit, Kue & Wafer',
+    category: 'Makanan & Minuman',
+    value: 'A',
+  },
+  {
+    label: 'Keripik & Kerupuk',
+    category: 'Makanan & Minuman',
+    value: 'A',
+  },
+  {
+    label: 'Biji-bijian',
+    category: 'Makanan & Minuman',
+    value: 'A',
+  },
+  {
+    label: 'Popcorn',
+    category: 'Makanan & Minuman',
+    value: 'A',
+  },
+  {
+    label: 'Rumput Laut',
+    category: 'Makanan & Minuman',
+    value: 'A',
+  },
+  {
+    label: 'Kacang',
+    category: 'Makanan & Minuman',
+    value: 'A',
+  },
+  {
+    label: 'Makanan Ringan lainnya',
+    category: 'Makanan & Minuman',
+    value: 'A',
+  },
+  {
+    label: 'Puding, Jeli, & Marshmallow',
+    category: 'Makanan & Minuman',
+    value: 'A',
+  },
+  {
+    label: 'Dendeng',
+    category: 'Makanan & Minuman',
+    value: 'A',
+  },
+  {
+    label: 'Buah Kering',
+    category: 'Makanan & Minuman',
+    value: 'A',
+  },
+  {
+    label: 'Abon',
+    category: 'Makanan & Minuman',
+    value: 'A',
+  },
+  {
+    label: 'Snack Seafood',
+    category: 'Makanan & Minuman',
+    value: 'A',
+  },
+  {
+    label: 'Makanan Ringan Kering lainnya',
+    category: 'Makanan & Minuman',
+    value: 'A',
+  },
+  {
+    label: 'Makanan Instant',
+    category: 'Makanan & Minuman',
+    value: 'B',
+  },
+  {
+    label: 'Permen',
+    category: 'Makanan & Minuman',
+    value: 'B',
+  },
+  {
+    label: 'Cokelat',
+    category: 'Makanan & Minuman',
+    value: 'B',
+  },
+  {
+    label: 'Makanan Kaleng',
+    category: 'Makanan & Minuman',
+    value: 'B',
+  },
+  {
+    label: 'Kopi',
+    category: 'Makanan & Minuman',
+    value: 'B',
+  },
+  {
+    label: 'Teh',
+    category: 'Makanan & Minuman',
+    value: 'B',
+  },
+  {
+    label: 'Minuman Coklat',
+    category: 'Makanan & Minuman',
+    value: 'B',
+  },
+  {
+    label: 'Susu',
+    category: 'Makanan & Minuman',
+    value: 'B',
+  },
+  {
+    label: 'Minuman Energi & Isotonik',
+    category: 'Makanan & Minuman',
+    value: 'B',
+  },
+  {
+    label: 'Air Mineral',
+    category: 'Makanan & Minuman',
+    value: 'B',
+  },
+  {
+    label: 'Jus & Sirup',
+    category: 'Makanan & Minuman',
+    value: 'B',
+  },
+  {
+    label: 'Cordial & Sirup',
+    category: 'Makanan & Minuman',
+    value: 'B',
+  },
+  {
+    label: 'Minuman Bersoda',
+    category: 'Makanan & Minuman',
+    value: 'B',
+  },
+  {
+    label: 'Minuman Bubuk Instan',
+    category: 'Makanan & Minuman',
+    value: 'B',
+  },
+  {
+    label: 'Minuman Pencuci Mulut',
+    category: 'Makanan & Minuman',
+    value: 'B',
+  },
+  {
+    label: 'Minuman Tradisional & Herbal',
+    category: 'Makanan & Minuman',
+    value: 'B',
+  },
+  {
+    label: 'Topping Minuman',
+    category: 'Makanan & Minuman',
+    value: 'B',
+  },
+  {
+    label: 'Susu Non-Dairy',
+    category: 'Makanan & Minuman',
+    value: 'B',
+  },
+  {
+    label: 'Minuman lainnya',
+    category: 'Makanan & Minuman',
+    value: 'B',
+  },
+  {
+    label: 'Yoghurt',
+    category: 'Makanan & Minuman',
+    value: 'B',
+  },
+  {
+    label: 'Krimer',
+    category: 'Makanan & Minuman',
+    value: 'B',
+  },
+  {
+    label: 'Mentega & Margarin',
+    category: 'Makanan & Minuman',
+    value: 'B',
+  },
+  {
+    label: 'Keju, Tahu, Susu & Olahan lainnya',
+    category: 'Makanan & Minuman',
+    value: 'B',
+  },
+  {
+    label: 'Roti & Kue',
+    category: 'Makanan & Minuman',
+    value: 'B',
+  },
+  {
+    label: 'Minuman Alkohol',
+    category: 'Makanan & Minuman',
+    value: 'B',
+  },
+  {
+    label: 'Set Hadiah & Hampers',
+    category: 'Makanan & Minuman',
+    value: 'B',
+  },
+  {
+    label: 'Makanan & Minuman lainnya',
+    category: 'Makanan & Minuman',
+    value: 'B',
+  },
+  {
+    label: 'Makanan Kering',
+    category: 'Makanan & Minuman',
+    value: 'C',
+  },
+  {
+    label: 'Mie, Beras, Pasta, Bahan Pokok lainnya',
+    category: 'Makanan & Minuman',
+    value: 'C',
+  },
+  {
+    label: 'Acar Sayuran',
+    category: 'Makanan & Minuman',
+    value: 'C',
+  },
+  {
+    label: 'Minyak',
+    category: 'Makanan & Minuman',
+    value: 'C',
+  },
+  {
+    label: 'Bumbu Masak, Gula, Pemanis, Kaldu, Saus & Sup Instan',
+    category: 'Makanan & Minuman',
+    value: 'C',
+  },
+  {
+    label: 'Bumbu Masak Instant',
+    category: 'Makanan & Minuman',
+    value: 'C',
+  },
+  {
+    label: 'Penambah Rasa',
+    category: 'Makanan & Minuman',
+    value: 'C',
+  },
+  {
+    label: 'Tepung Bumbu',
+    category: 'Makanan & Minuman',
+    value: 'C',
+  },
+  {
+    label: 'Kebutuhan Memasak lainnya',
+    category: 'Makanan & Minuman',
+    value: 'C',
+  },
+  {
+    label: 'Penyedap Kue',
+    category: 'Makanan & Minuman',
+    value: 'C',
+  },
+  {
+    label: 'Baking Powder & Soda Kue',
+    category: 'Makanan & Minuman',
+    value: 'C',
+  },
+  {
+    label: 'Tepung Premix Instan',
+    category: 'Makanan & Minuman',
+    value: 'C',
+  },
+  {
+    label: 'Tepung',
+    category: 'Makanan & Minuman',
+    value: 'C',
+  },
+  {
+    label: 'Pewarna Makanan',
+    category: 'Makanan & Minuman',
+    value: 'C',
+  },
+  {
+    label: 'Bahan Dekorasi Kue',
+    category: 'Makanan & Minuman',
+    value: 'C',
+  },
+  {
+    label: 'Bahan Baking lainnya',
+    category: 'Makanan & Minuman',
+    value: 'C',
+  },
+  {
+    label: 'Madu & Olesan',
+    category: 'Makanan & Minuman',
+    value: 'C',
+  },
+  {
+    label: 'Selai & Olesan',
+    category: 'Makanan & Minuman',
+    value: 'C',
+  },
+  {
+    label: 'Sereal, Granola, & Oat',
+    category: 'Makanan & Minuman',
+    value: 'C',
+  },
+  {
+    label: 'Bar Sereal',
+    category: 'Makanan & Minuman',
+    value: 'C',
+  },
+  {
+    label: 'Menu Sarapan lainnya',
+    category: 'Makanan & Minuman',
+    value: 'C',
+  },
+  {
+    label: 'Es Krim',
+    category: 'Makanan & Minuman',
+    value: 'C',
+  },
+  {
+    label: 'Telur',
+    category: 'Makanan & Minuman',
+    value: 'C',
+  },
+  {
+    label: 'Daging',
+    category: 'Makanan & Minuman',
+    value: 'C',
+  },
+  {
+    label: 'Seafood',
+    category: 'Makanan & Minuman',
+    value: 'C',
+  },
+  {
+    label: 'Daging Vegetarian',
+    category: 'Makanan & Minuman',
+    value: 'C',
+  },
+  {
+    label: 'Makanan Segar & Beku lainnya',
+    category: 'Makanan & Minuman',
+    value: 'C',
+  },
+  {
+    label: 'Sayuran',
+    category: 'Makanan & Minuman',
+    value: 'C',
+  },
+  {
+    label: 'Buah-buahan',
+    category: 'Makanan & Minuman',
+    value: 'C',
+  },
+  {
+    label: 'Jamur',
+    category: 'Makanan & Minuman',
+    value: 'C',
+  },
+  {
+    label: 'Makanan Beku Olahan',
+    category: 'Makanan & Minuman',
+    value: 'C',
+  },
+  {
+    label: 'Daging & Seafood Beku',
+    category: 'Makanan & Minuman',
+    value: 'C',
+  },
+  {
+    label: 'Sabun Mandi',
+    category: 'Perawatan & Kecantikan',
+    value: 'A',
+  },
+  {
+    label: 'Scrub & Peel Tubuh',
+    category: 'Perawatan & Kecantikan',
+    value: 'A',
+  },
+  {
+    label: 'Masker Tubuh',
+    category: 'Perawatan & Kecantikan',
+    value: 'A',
+  },
+  {
+    label: 'Minyak Tubuh',
+    category: 'Perawatan & Kecantikan',
+    value: 'A',
+  },
+  {
+    label: 'Body Cream',
+    category: 'Perawatan & Kecantikan',
+    value: 'A',
+  },
+  {
+    label: 'Body Lotion & Body Butter',
+    category: 'Perawatan & Kecantikan',
+    value: 'A',
+  },
+  {
+    label: 'Deodoran',
+    category: 'Perawatan & Kecantikan',
+    value: 'A',
+  },
+  {
+    label: 'Minyak Pijat',
+    category: 'Perawatan & Kecantikan',
+    value: 'A',
+  },
+  {
+    label: 'Cream & Wax Penghilang Bulu Rambut',
+    category: 'Perawatan & Kecantikan',
+    value: 'A',
+  },
+  {
+    label: 'Sun Care',
+    category: 'Perawatan & Kecantikan',
+    value: 'A',
+  },
+  {
+    label: 'Perawatan Payudara',
+    category: 'Perawatan & Kecantikan',
+    value: 'A',
+  },
+  {
+    label: 'Perawatan Tubuh lainnya',
+    category: 'Perawatan & Kecantikan',
+    value: 'A',
+  },
+  {
+    label: 'Perawatan Tangan',
+    category: 'Perawatan & Kecantikan',
+    value: 'A',
+  },
+  {
+    label: 'Perawatan Kaki',
+    category: 'Perawatan & Kecantikan',
+    value: 'A',
+  },
+  {
+    label: 'Perawatan Kuku',
+    category: 'Perawatan & Kecantikan',
+    value: 'A',
+  },
+  {
+    label: 'Perawatan Tangan, Kaki & Kuku lainnya',
+    category: 'Perawatan & Kecantikan',
+    value: 'A',
+  },
+  {
+    label: 'Shampo',
+    category: 'Perawatan & Kecantikan',
+    value: 'A',
+  },
+  {
+    label: 'Pewarna Rambut',
+    category: 'Perawatan & Kecantikan',
+    value: 'A',
+  },
+  {
+    label: 'Treatment Rambut',
+    category: 'Perawatan & Kecantikan',
+    value: 'A',
+  },
+  {
+    label: 'Kondisioner Rambut dan Kulit Kepala',
+    category: 'Perawatan & Kecantikan',
+    value: 'A',
+  },
+  {
+    label: 'Hair Styling',
+    category: 'Perawatan & Kecantikan',
+    value: 'A',
+  },
+  {
+    label: 'Perawatan Rambut lainnya',
+    category: 'Perawatan & Kecantikan',
+    value: 'A',
+  },
+  {
+    label: 'Perawatan Tubuh Pria',
+    category: 'Perawatan & Kecantikan',
+    value: 'A',
+  },
+  {
+    label: 'Perawatan Wajah Pria',
+    category: 'Perawatan & Kecantikan',
+    value: 'A',
+  },
+  {
+    label: 'Shaving & Grooming',
+    category: 'Perawatan & Kecantikan',
+    value: 'A',
+  },
+  {
+    label: 'Perawatan Rambut Pria',
+    category: 'Perawatan & Kecantikan',
+    value: 'A',
+  },
+  {
+    label: 'Perawatan Pria lainnya',
+    category: 'Perawatan & Kecantikan',
+    value: 'A',
+  },
+  {
+    label: 'Parfum & Wewangian',
+    category: 'Perawatan & Kecantikan',
+    value: 'A',
+  },
+  {
+    label: 'Kosmetik lainnya',
+    category: 'Perawatan & Kecantikan',
+    value: 'A',
+  },
+  {
+    label: 'Kosmetik Wajah',
+    category: 'Perawatan & Kecantikan',
+    value: 'A',
+  },
+  {
+    label: 'Kosmetik Mata',
+    category: 'Perawatan & Kecantikan',
+    value: 'A',
+  },
+  {
+    label: 'Kosmetik Bibir',
+    category: 'Perawatan & Kecantikan',
+    value: 'A',
+  },
+  {
+    label: 'Pembersih Make Up',
+    category: 'Perawatan & Kecantikan',
+    value: 'A',
+  },
+  {
+    label: 'Aksesoris Make Up',
+    category: 'Perawatan & Kecantikan',
+    value: 'A',
+  },
+  {
+    label: 'Alat Perawatan Wajah',
+    category: 'Perawatan & Kecantikan',
+    value: 'A',
+  },
+  {
+    label: 'Alat Pelangsing Tubuh',
+    category: 'Perawatan & Kecantikan',
+    value: 'A',
+  },
+  {
+    label: 'Alat Penghilang Bulu Rambut',
+    category: 'Perawatan & Kecantikan',
+    value: 'A',
+  },
+  {
+    label: 'Alat Rambut',
+    category: 'Perawatan & Kecantikan',
+    value: 'A',
+  },
+  {
+    label: 'Alat Kecantikan lainnya',
+    category: 'Perawatan & Kecantikan',
+    value: 'A',
+  },
+  {
+    label: 'Pembersih Wajah',
+    category: 'Perawatan & Kecantikan',
+    value: 'A',
+  },
+  {
+    label: 'Toner',
+    category: 'Perawatan & Kecantikan',
+    value: 'A',
+  },
+  {
+    label: 'Pelembab Wajah',
+    category: 'Perawatan & Kecantikan',
+    value: 'A',
+  },
+  {
+    label: 'Minyak Wajah',
+    category: 'Perawatan & Kecantikan',
+    value: 'A',
+  },
+  {
+    label: 'Facial Mist',
+    category: 'Perawatan & Kecantikan',
+    value: 'A',
+  },
+  {
+    label: 'Serum & Essence Wajah',
+    category: 'Perawatan & Kecantikan',
+    value: 'A',
+  },
+  {
+    label: 'Scrub & Peel Wajah',
+    category: 'Perawatan & Kecantikan',
+    value: 'A',
+  },
+  {
+    label: 'Masker Wajah',
+    category: 'Perawatan & Kecantikan',
+    value: 'A',
+  },
+  {
+    label: 'Treatment Mata',
+    category: 'Perawatan & Kecantikan',
+    value: 'A',
+  },
+  {
+    label: 'Treatment Bibir',
+    category: 'Perawatan & Kecantikan',
+    value: 'A',
+  },
+  {
+    label: 'Sunscreen Wajah',
+    category: 'Perawatan & Kecantikan',
+    value: 'A',
+  },
+  {
+    label: 'Perawatan Wajah After Sun',
+    category: 'Perawatan & Kecantikan',
+    value: 'A',
+  },
+  {
+    label: 'Kertas Minyak',
+    category: 'Perawatan & Kecantikan',
+    value: 'A',
+  },
+  {
+    label: 'Treatment Jerawat',
+    category: 'Perawatan & Kecantikan',
+    value: 'A',
+  },
+  {
+    label: 'Perawatan Wajah lainnya',
+    category: 'Perawatan & Kecantikan',
+    value: 'A',
+  },
+  {
+    label: 'Paket & Set Kecantikan',
+    category: 'Perawatan & Kecantikan',
+    value: 'A',
+  },
+  {
+    label: 'Perawatan & Kecantikan lainnya',
+    category: 'Perawatan & Kecantikan',
+    value: 'A',
+  },
+  {
+    label: 'Perlengkapan Travelling Bayi',
+    category: 'Ibu & Bayi',
+    value: 'A',
+  },
+  {
+    label: 'Perlengkapan Makan Bayi',
+    category: 'Ibu & Bayi',
+    value: 'A',
+  },
+  {
+    label: 'Perlengkapan Mandi',
+    category: 'Ibu & Bayi',
+    value: 'A',
+  },
+  {
+    label: 'Boks & Matras Tidur Bayi',
+    category: 'Ibu & Bayi',
+    value: 'A',
+  },
+  {
+    label: 'Ayunan Bayi',
+    category: 'Ibu & Bayi',
+    value: 'A',
+  },
+  {
+    label: 'Baby Walker',
+    category: 'Ibu & Bayi',
+    value: 'A',
+  },
+  {
+    label: 'Matras & Sprei',
+    category: 'Ibu & Bayi',
+    value: 'A',
+  },
+  {
+    label: 'Tempat Penyimpanan',
+    category: 'Ibu & Bayi',
+    value: 'A',
+  },
+  {
+    label: 'Kamar Bayi lainnya',
+    category: 'Ibu & Bayi',
+    value: 'A',
+  },
+  {
+    label: 'Baby Monitor',
+    category: 'Ibu & Bayi',
+    value: 'A',
+  },
+  {
+    label: 'Kelambu, Bumper, Rail, & Guard',
+    category: 'Ibu & Bayi',
+    value: 'A',
+  },
+  {
+    label: 'Pelindung Sudut',
+    category: 'Ibu & Bayi',
+    value: 'A',
+  },
+  {
+    label: 'Pintu & Pagar Bayi',
+    category: 'Ibu & Bayi',
+    value: 'A',
+  },
+  {
+    label: 'Pengaman Laci & Lemari',
+    category: 'Ibu & Bayi',
+    value: 'A',
+  },
+  {
+    label: 'Alat Keamanan Bayi lainnya',
+    category: 'Ibu & Bayi',
+    value: 'A',
+  },
+  {
+    label: 'Perawatan Hidung & Pernafasan',
+    category: 'Ibu & Bayi',
+    value: 'A',
+  },
+  {
+    label: 'Perawatan Kulit Bayi',
+    category: 'Ibu & Bayi',
+    value: 'A',
+  },
+  {
+    label: 'Perawatan Mulut Bayi',
+    category: 'Ibu & Bayi',
+    value: 'A',
+  },
+  {
+    label: 'Sun Care Bayi',
+    category: 'Ibu & Bayi',
+    value: 'A',
+  },
+  {
+    label: 'Kesehatan Bayi lainnya',
+    category: 'Ibu & Bayi',
+    value: 'A',
+  },
+  {
+    label: 'Perlak',
+    category: 'Ibu & Bayi',
+    value: 'A',
+  },
+  {
+    label: 'Pispot',
+    category: 'Ibu & Bayi',
+    value: 'A',
+  },
+  {
+    label: 'Popok & Pispot lainnya',
+    category: 'Ibu & Bayi',
+    value: 'A',
+  },
+  {
+    label: 'Mainan Bayi & Anak',
+    category: 'Ibu & Bayi',
+    value: 'A',
+  },
+  {
+    label: 'Boneka & Mainan Boneka',
+    category: 'Ibu & Bayi',
+    value: 'A',
+  },
+  {
+    label: 'Mainan Peran',
+    category: 'Ibu & Bayi',
+    value: 'A',
+  },
+  {
+    label: 'Kendaraan Mainan',
+    category: 'Ibu & Bayi',
+    value: 'A',
+  },
+  {
+    label: 'Mainan Olahraga & Outdoor',
+    category: 'Ibu & Bayi',
+    value: 'A',
+  },
+  {
+    label: 'Mainan Edukatif',
+    category: 'Ibu & Bayi',
+    value: 'A',
+  },
+  {
+    label: 'Mainan Robot',
+    category: 'Ibu & Bayi',
+    value: 'A',
+  },
+  {
+    label: 'Mainan lainnya',
+    category: 'Ibu & Bayi',
+    value: 'A',
+  },
+  {
+    label: 'Set & Paket Hadiah',
+    category: 'Ibu & Bayi',
+    value: 'A',
+  },
+  {
+    label: 'Ibu & Bayi lainnya',
+    category: 'Ibu & Bayi',
+    value: 'A',
+  },
+  {
+    label: 'Pompa ASI & Aksesoris',
+    category: 'Ibu & Bayi',
+    value: 'B',
+  },
+  {
+    label: 'Penyangga Perut',
+    category: 'Ibu & Bayi',
+    value: 'B',
+  },
+  {
+    label: 'Bantal Ibu Hamil',
+    category: 'Ibu & Bayi',
+    value: 'B',
+  },
+  {
+    label: 'Perlengkapan Ibu Hamil lainnya',
+    category: 'Ibu & Bayi',
+    value: 'B',
+  },
+  {
+    label: 'Susu Ibu Hamil',
+    category: 'Ibu & Bayi',
+    value: 'B',
+  },
+  {
+    label: 'Vitamin & Suplemen Ibu Hamil',
+    category: 'Ibu & Bayi',
+    value: 'B',
+  },
+  {
+    label: 'Pelembab & Cream',
+    category: 'Ibu & Bayi',
+    value: 'B',
+  },
+  {
+    label: 'Kesehatan Kehamilan lainnya',
+    category: 'Ibu & Bayi',
+    value: 'B',
+  },
+  {
+    label: 'Popok Sekali Pakai',
+    category: 'Ibu & Bayi',
+    value: 'B',
+  },
+  {
+    label: 'Popok Kain & Aksesoris',
+    category: 'Ibu & Bayi',
+    value: 'B',
+  },
+  {
+    label: 'Mainan Balok',
+    category: 'Ibu & Bayi',
+    value: 'B',
+  },
+  {
+    label: 'Puzzle',
+    category: 'Ibu & Bayi',
+    value: 'B',
+  },
+  {
+    label: 'Mainan Slime & Squishy',
+    category: 'Ibu & Bayi',
+    value: 'B',
+  },
+  {
+    label: 'Susu Formula',
+    category: 'Ibu & Bayi',
+    value: 'C',
+  },
+  {
+    label: 'Bubur & Sereal Bayi',
+    category: 'Ibu & Bayi',
+    value: 'C',
+  },
+  {
+    label: 'Camilan Bayi',
+    category: 'Ibu & Bayi',
+    value: 'C',
+  },
+  {
+    label: 'Susu Formula & Makanan Bayi lainnya',
+    category: 'Ibu & Bayi',
+    value: 'C',
+  },
+  {
+    label: 'Vitamin & Suplemen Bayi',
+    category: 'Ibu & Bayi',
+    value: 'C',
+  },
+  {
+    label: 'Pakaian Bayi',
+    category: 'Fashion Bayi & Anak ',
+    value: 'A',
+  },
+  {
+    label: 'Sepatu Bayi',
+    category: 'Fashion Bayi & Anak ',
+    value: 'A',
+  },
+  {
+    label: 'Aksesoris Bayi & Anak',
+    category: 'Fashion Bayi & Anak ',
+    value: 'A',
+  },
+  {
+    label: 'Pakaian Anak Laki-Laki',
+    category: 'Fashion Bayi & Anak ',
+    value: 'A',
+  },
+  {
+    label: 'Pakaian Anak Perempuan',
+    category: 'Fashion Bayi & Anak ',
+    value: 'A',
+  },
+  {
+    label: 'Sepatu Anak Laki-Laki',
+    category: 'Fashion Bayi & Anak ',
+    value: 'A',
+  },
+  {
+    label: 'Sepatu Anak Perempuan',
+    category: 'Fashion Bayi & Anak ',
+    value: 'A',
+  },
+  {
+    label: 'Fashion Bayi & Anak lainnya',
+    category: 'Fashion Bayi & Anak ',
+    value: 'A',
+  },
+  {
+    label: 'Perhiasan Bayi & Anak',
+    category: 'Fashion Bayi & Anak ',
+    value: 'C',
+  },
+  {
+    label: 'Gimbal & Stabilizer',
+    category: 'Kamera & Drone',
+    value: 'A',
+  },
+  {
+    label: 'Lighting & Perlengkapan Studio Foto',
+    category: 'Kamera & Drone',
+    value: 'A',
+  },
+  {
+    label: 'Roll Film & Kertas Foto',
+    category: 'Kamera & Drone',
+    value: 'A',
+  },
+  {
+    label: 'Printer Foto',
+    category: 'Kamera & Drone',
+    value: 'A',
+  },
+  {
+    label: 'Charger Baterai',
+    category: 'Kamera & Drone',
+    value: 'A',
+  },
+  {
+    label: 'Baterai & Battery Grip',
+    category: 'Kamera & Drone',
+    value: 'A',
+  },
+  {
+    label: 'Tripod, Monopod, & Aksesoris',
+    category: 'Kamera & Drone',
+    value: 'A',
+  },
+  {
+    label: 'Aksesoris Kamera lainnya',
+    category: 'Kamera & Drone',
+    value: 'A',
+  },
+  {
+    label: 'Dry Box & Cabinet',
+    category: 'Kamera & Drone',
+    value: 'A',
+  },
+  {
+    label: 'Cleaning Kit',
+    category: 'Kamera & Drone',
+    value: 'A',
+  },
+  {
+    label: 'Silica Gel',
+    category: 'Kamera & Drone',
+    value: 'A',
+  },
+  {
+    label: 'Blower',
+    category: 'Kamera & Drone',
+    value: 'A',
+  },
+  {
+    label: 'Lenspen & Brush',
+    category: 'Kamera & Drone',
+    value: 'A',
+  },
+  {
+    label: 'Perawatan Kamera lainnya',
+    category: 'Kamera & Drone',
+    value: 'A',
+  },
+  {
+    label: 'Kamera & Drone lainnya',
+    category: 'Kamera & Drone',
+    value: 'A',
+  },
+  {
+    label: 'Kamera CCTV',
+    category: 'Kamera & Drone',
+    value: 'B',
+  },
+  {
+    label: 'Kamera Keamanan',
+    category: 'Kamera & Drone',
+    value: 'B',
+  },
+  {
+    label: 'Lensa',
+    category: 'Kamera & Drone',
+    value: 'B',
+  },
+  {
+    label: 'Aksesoris Lensa',
+    category: 'Kamera & Drone',
+    value: 'B',
+  },
+  {
+    label: 'Aksesoris Kamera lainnya',
+    category: 'Kamera & Drone',
+    value: 'B',
+  },
+  {
+    label: 'Kamera Pocket',
+    category: 'Kamera & Drone',
+    value: 'C',
+  },
+  {
+    label: 'Kamera Mirrorless',
+    category: 'Kamera & Drone',
+    value: 'C',
+  },
+  {
+    label: 'Kamera Action',
+    category: 'Kamera & Drone',
+    value: 'C',
+  },
+  {
+    label: 'Camcorder',
+    category: 'Kamera & Drone',
+    value: 'C',
+  },
+  {
+    label: 'Kamera Instan',
+    category: 'Kamera & Drone',
+    value: 'C',
+  },
+  {
+    label: 'Kamera Analog',
+    category: 'Kamera & Drone',
+    value: 'C',
+  },
+  {
+    label: 'DSLR',
+    category: 'Kamera & Drone',
+    value: 'C',
+  },
+  {
+    label: 'Kamera & Drone lainnya',
+    category: 'Kamera & Drone',
+    value: 'C',
+  },
+  {
+    label: 'Flash',
+    category: 'Kamera & Drone',
+    value: 'C',
+  },
+  {
+    label: 'Aksesoris Flash',
+    category: 'Kamera & Drone',
+    value: 'C',
+  },
+  {
+    label: 'Drone',
+    category: 'Kamera & Drone',
+    value: 'C',
+  },
+  {
+    label: 'Aksesoris Drone',
+    category: 'Kamera & Drone',
+    value: 'C',
+  },
+  {
+    label: 'Pengharum Ruangan & Aromaterapi',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Kloset & Alas Dudukan Kloset',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Tempat Sikat Gigi & Dispenser Odol',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Dispenser, Tempat, & Kotak Sabun',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Rak & Kabinet Kamar Mandi',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Bak Mandi & Bathtub',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Handuk Mandi & Kimono',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Kepala Shower & Spray Bidet',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Sikat & Spons Badan',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Tirai Shower',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Tempat Duduk Mandi & Pispot',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Pegangan Kamar Mandi',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Shower Cap',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Kamar Mandi lainnya',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Matras Pendingin',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Pelindung Matras',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Selimut',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Bantal',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Sprei',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Sarung Bantal & Sarung Guling',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Matras',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Kelambu',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Guling',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Kamar Tidur lainnya',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Bunga',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Furniture & Pelindung Furniture',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Tirai & Tirai Gulung',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Bingkai Foto & Pajangan Dinding',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Wallpaper & Stiker Dinding',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Jam Dinding',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Keset',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Karpet & Tikar',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Vas & Bejana',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Lilin & Tempat Lilin',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Cermin',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Taplak Meja',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Dekorasi lainnya',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Penghangat Tangan & Kantong Kompres',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Bantal Sofa',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Penahan Pintu',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Rangka & Sandaran Tempat Tidur',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Meja & Meja Tulis',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Lemari Pakaian',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Sofa',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Lemari & Kabinet',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Rak & Rak Gantung',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Furniture lainnya',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Tanaman',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Dekorasi Taman',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Tanah & Media Tanam',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Pupuk',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Bibit & Umbi',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Pot & Planter',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Sistem Pengairan',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Peralatan Berkebun',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Taman lainnya',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Mesin Pemotong Rumput',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Perekat & Tape',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Sarung Tangan',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Kacamata, & Masker Pelindung',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Bak Cuci Piring & Kran Air',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Atap & Lantai',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Cat & Pelapis Dinding',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Perkakas',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Pompa Air & Aksesoris',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Pompa Udara & Aksesoris',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Tangga',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Troli',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Tenda & Terpal',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Material Konstruksi',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Pintu & Jendela',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Alat Pemeliharaan Rumah lainnya',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Tali Jemuran & Rak Pengering',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Sikat Pembersih',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Sapu, Kemoceng, Kain Pel, Basin, Ember, & Gayung Air',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Spons & Scouring Pad',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Tempat Sampah',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Kantong Plastik  & Kantong Sampah',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Lap',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Pembasmi Hama & Gulma',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Tisu & Tisu Kertas',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Tisu Toilet',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Pembersih',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Perawatan Pakaian',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Perawatan Rumah lainnya',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Alat & Aksesoris Pemanggang',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Alat & Dekorasi Baking',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Penggorengan',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Panci',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Tempat Penyimpanan Makanan',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Cling Wrap',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Aluminium Foil',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Peralatan Teh',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Kopi & Bartending',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Rak Dapur',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Celemek & Pelindung Tangan',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Spatula & Capitan',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Talenan',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Pisau & Gunting Dapur',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Pengocok Telur',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Pembuka Tutup Kaleng & Botol',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Gelas & Sendok Takar',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Saringan',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Parutan & Peeler',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Timbangan Dapur',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Korek Api & Pemantik',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Perlengkapan Dapur lainnya',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Peralatan Makan',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Lampu',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Brankas',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Pemadam Api',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Perangkat Pintu & Gembok',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Alat Pengaman lainnya',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Organizer Rumah',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Perlengkapan Pesta',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Perlengkapan Keagamaan',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Perlengkapan Rumah lainnya',
+    category: 'Perlengkapan Rumah',
+    value: 'A',
+  },
+  {
+    label: 'Kursi Taman',
+    category: 'Perlengkapan Rumah',
+    value: 'B',
+  },
+  {
+    label: 'Kursi, & Bangku',
+    category: 'Perlengkapan Rumah',
+    value: 'B',
+  },
+  {
+    label: 'Sealer',
+    category: 'Perlengkapan Rumah',
+    value: 'C',
+  },
+  {
+    label: 'Alat Pancing',
+    category: 'Olahraga & Outdoor',
+    value: 'A',
+  },
+  {
+    label: 'Camping & Hiking',
+    category: 'Olahraga & Outdoor',
+    value: 'A',
+  },
+  {
+    label: 'Panjat Tebing',
+    category: 'Olahraga & Outdoor',
+    value: 'A',
+  },
+  {
+    label: 'Skateboard & Sepatu Roda',
+    category: 'Olahraga & Outdoor',
+    value: 'A',
+  },
+  {
+    label: 'Skuter & Sepeda Roda Satu',
+    category: 'Olahraga & Outdoor',
+    value: 'A',
+  },
+  {
+    label: 'Segway & Hoverboard',
+    category: 'Olahraga & Outdoor',
+    value: 'A',
+  },
+  {
+    label: 'Helm & Alat Pelindung',
+    category: 'Olahraga & Outdoor',
+    value: 'A',
+  },
+  {
+    label: 'Boardsport lainnya',
+    category: 'Olahraga & Outdoor',
+    value: 'A',
+  },
+  {
+    label: 'Panahan',
+    category: 'Olahraga & Outdoor',
+    value: 'A',
+  },
+  {
+    label: 'Sepak Bola',
+    category: 'Olahraga & Outdoor',
+    value: 'A',
+  },
+  {
+    label: 'Futsal & Sepak Takraw',
+    category: 'Olahraga & Outdoor',
+    value: 'A',
+  },
+  {
+    label: 'Basket',
+    category: 'Olahraga & Outdoor',
+    value: 'A',
+  },
+  {
+    label: 'Voli',
+    category: 'Olahraga & Outdoor',
+    value: 'A',
+  },
+  {
+    label: 'Bulu Tangkis',
+    category: 'Olahraga & Outdoor',
+    value: 'A',
+  },
+  {
+    label: 'Tenis',
+    category: 'Olahraga & Outdoor',
+    value: 'A',
+  },
+  {
+    label: 'Tenis Meja',
+    category: 'Olahraga & Outdoor',
+    value: 'A',
+  },
+  {
+    label: 'Tinju & Bela Diri',
+    category: 'Olahraga & Outdoor',
+    value: 'A',
+  },
+  {
+    label: 'Golf',
+    category: 'Olahraga & Outdoor',
+    value: 'A',
+  },
+  {
+    label: 'Baseball & Softball',
+    category: 'Olahraga & Outdoor',
+    value: 'A',
+  },
+  {
+    label: 'Squash',
+    category: 'Olahraga & Outdoor',
+    value: 'A',
+  },
+  {
+    label: 'Rugbi',
+    category: 'Olahraga & Outdoor',
+    value: 'A',
+  },
+  {
+    label: 'Billiard',
+    category: 'Olahraga & Outdoor',
+    value: 'A',
+  },
+  {
+    label: 'Selancar & Wakeboard',
+    category: 'Olahraga & Outdoor',
+    value: 'A',
+  },
+  {
+    label: 'Ice Skating & Olahraga Musim Dingin',
+    category: 'Olahraga & Outdoor',
+    value: 'A',
+  },
+  {
+    label: 'Diving & Renang',
+    category: 'Olahraga & Outdoor',
+    value: 'A',
+  },
+  {
+    label: 'Boating',
+    category: 'Olahraga & Outdoor',
+    value: 'A',
+  },
+  {
+    label: 'Yoga & Pilates',
+    category: 'Olahraga & Outdoor',
+    value: 'A',
+  },
+  {
+    label: 'Fitness',
+    category: 'Olahraga & Outdoor',
+    value: 'A',
+  },
+  {
+    label: 'Dart',
+    category: 'Olahraga & Outdoor',
+    value: 'A',
+  },
+  {
+    label: 'Alat Rekreasi Olahraga & Aktivitas Outdoor lainnya',
+    category: 'Olahraga & Outdoor',
+    value: 'A',
+  },
+  {
+    label: 'Sepatu Olahraga',
+    category: 'Olahraga & Outdoor',
+    value: 'A',
+  },
+  {
+    label: 'Pakaian Olahraga & Aktivitas Outdoor',
+    category: 'Olahraga & Outdoor',
+    value: 'A',
+  },
+  {
+    label: 'Aksesoris Olahraga & Aktivitas Outdoor',
+    category: 'Olahraga & Outdoor',
+    value: 'A',
+  },
+  {
+    label: 'Olahraga & Outdoor lainnya',
+    category: 'Olahraga & Outdoor',
+    value: 'A',
+  },
+  {
+    label: 'Sepeda',
+    category: 'Olahraga & Outdoor',
+    value: 'B',
+  },
+  {
+    label: 'Komponen & Aksesoris Sepeda',
+    category: 'Olahraga & Outdoor',
+    value: 'B',
+  },
+  {
+    label: 'Helm Sepeda',
+    category: 'Olahraga & Outdoor',
+    value: 'B',
+  },
+  {
+    label: 'Bersepeda lainnya',
+    category: 'Olahraga & Outdoor',
+    value: 'B',
+  },
+  {
+    label: 'Pembungkus Kado & Kemasan',
+    category: 'Buku & Alat Tulis',
+    value: 'A',
+  },
+  {
+    label: 'Alat Tulis',
+    category: 'Buku & Alat Tulis',
+    value: 'A',
+  },
+  {
+    label: 'Perlengkapan Sekolah & Kantor',
+    category: 'Buku & Alat Tulis',
+    value: 'A',
+  },
+  {
+    label: 'Perlengkapan Menggambar',
+    category: 'Buku & Alat Tulis',
+    value: 'A',
+  },
+  {
+    label: 'Buku Tulis & Kertas',
+    category: 'Buku & Alat Tulis',
+    value: 'A',
+  },
+  {
+    label: 'Surat-Menyurat',
+    category: 'Buku & Alat Tulis',
+    value: 'A',
+  },
+  {
+    label: 'Buku & Alat Tulis lainnya',
+    category: 'Buku & Alat Tulis',
+    value: 'A',
+  },
+  {
+    label: 'Kipas Tangan',
+    category: 'Hobi & Koleksi ',
+    value: 'A',
+  },
+  {
+    label: 'Gantungan Kunci',
+    category: 'Hobi & Koleksi ',
+    value: 'A',
+  },
+  {
+    label: 'Celengan',
+    category: 'Hobi & Koleksi ',
+    value: 'A',
+  },
+  {
+    label: 'Magnet Kulkas',
+    category: 'Hobi & Koleksi ',
+    value: 'A',
+  },
+  {
+    label: 'Souvenir & Hadiah lainnya',
+    category: 'Hobi & Koleksi ',
+    value: 'A',
+  },
+  {
+    label: 'Action Figure',
+    category: 'Hobi & Koleksi ',
+    value: 'B',
+  },
+  {
+    label: 'Patung',
+    category: 'Hobi & Koleksi ',
+    value: 'B',
+  },
+  {
+    label: 'Mecha Model & Diecast',
+    category: 'Hobi & Koleksi ',
+    value: 'B',
+  },
+  {
+    label: 'Vehicle Model & Diecast',
+    category: 'Hobi & Koleksi ',
+    value: 'B',
+  },
+  {
+    label: 'Batu Akik & Alam',
+    category: 'Hobi & Koleksi ',
+    value: 'B',
+  },
+  {
+    label: 'Koleksi Penggemar',
+    category: 'Hobi & Koleksi ',
+    value: 'B',
+  },
+  {
+    label: 'Koleksi Olahraga',
+    category: 'Hobi & Koleksi ',
+    value: 'B',
+  },
+  {
+    label: 'Koleksi Anime & Manga',
+    category: 'Hobi & Koleksi ',
+    value: 'B',
+  },
+  {
+    label: 'Koin & Uang Kertas',
+    category: 'Hobi & Koleksi ',
+    value: 'B',
+  },
+  {
+    label: 'Koleksi lainnya',
+    category: 'Hobi & Koleksi ',
+    value: 'B',
+  },
+  {
+    label: 'Mainan & Games',
+    category: 'Hobi & Koleksi ',
+    value: 'B',
+  },
+  {
+    label: 'CD, DVD & Bluray',
+    category: 'Hobi & Koleksi ',
+    value: 'B',
+  },
+  {
+    label: 'Alat & Aksesoris Musik',
+    category: 'Hobi & Koleksi ',
+    value: 'B',
+  },
+  {
+    label: 'Piringan Hitam',
+    category: 'Hobi & Koleksi ',
+    value: 'B',
+  },
+  {
+    label: 'Album Foto',
+    category: 'Hobi & Koleksi ',
+    value: 'B',
+  },
+  {
+    label: 'Perlengkapan Menjahit',
+    category: 'Hobi & Koleksi ',
+    value: 'B',
+  },
+  {
+    label: 'Hobi & Koleksi lainnya',
+    category: 'Hobi & Koleksi ',
+    value: 'B',
+  },
+  {
+    label: 'Aksesoris Interior Mobil',
+    category: 'Mobil',
+    value: 'A',
+  },
+  {
+    label: 'Aksesoris Eksterior Mobil',
+    category: 'Mobil',
+    value: 'A',
+  },
+  {
+    label: 'Perkakas & Perlengkapan Kendaraan',
+    category: 'Mobil',
+    value: 'A',
+  },
+  {
+    label: 'Perawatan Kendaraan',
+    category: 'Mobil',
+    value: 'A',
+  },
+  {
+    label: 'Gantungan & Sarung Kunci Kendaraan',
+    category: 'Mobil',
+    value: 'A',
+  },
+  {
+    label: 'Mobil lainnya',
+    category: 'Mobil',
+    value: 'A',
+  },
+  {
+    label: 'Mobil',
+    category: 'Mobil',
+    value: 'B',
+  },
+  {
+    label: 'Suku Cadang Mobil',
+    category: 'Mobil',
+    value: 'B',
+  },
+  {
+    label: 'Oli & Pelumas Kendaraan',
+    category: 'Mobil',
+    value: 'B',
+  },
+  {
+    label: 'Aksesoris Sepeda Motor',
+    category: 'Sepeda Motor',
+    value: 'A',
+  },
+  {
+    label: 'Suku Cadang Motor',
+    category: 'Sepeda Motor',
+    value: 'A',
+  },
+  {
+    label: 'Helm & Aksesoris Pengendara Motor',
+    category: 'Sepeda Motor',
+    value: 'A',
+  },
+  {
+    label: 'Sepeda Motor lainnya',
+    category: 'Sepeda Motor',
+    value: 'A',
+  },
+  {
+    label: 'Sepeda Motor',
+    category: 'Sepeda Motor',
+    value: 'B',
+  },
+  {
+    label: 'Tiket Event',
+    category: 'Tiket, Voucher, & Layanan ',
+    value: 'A',
+  },
+  {
+    label: 'Makanan & Minuman',
+    category: 'Tiket, Voucher, & Layanan ',
+    value: 'A',
+  },
+  {
+    label: 'Belanja',
+    category: 'Tiket, Voucher, & Layanan ',
+    value: 'A',
+  },
+  {
+    label: 'Listrik, Gas, & Air',
+    category: 'Tiket, Voucher, & Layanan ',
+    value: 'A',
+  },
+  {
+    label: 'Layanan',
+    category: 'Tiket, Voucher, & Layanan ',
+    value: 'A',
+  },
+  {
+    label: 'Telco',
+    category: 'Tiket, Voucher, & Layanan ',
+    value: 'A',
+  },
+  {
+    label: 'Travel & Tour',
+    category: 'Tiket, Voucher, & Layanan ',
+    value: 'A',
+  },
+  {
+    label: 'E-Money',
+    category: 'Tiket, Voucher, & Layanan ',
+    value: 'A',
+  },
+  {
+    label: 'Gaming',
+    category: 'Tiket, Voucher, & Layanan ',
+    value: 'A',
+  },
+  {
+    label: 'Streaming',
+    category: 'Tiket, Voucher, & Layanan ',
+    value: 'A',
+  },
+  {
+    label: 'Shopee Official',
+    category: 'Tiket, Voucher, & Layanan ',
+    value: 'A',
+  },
+  {
+    label: 'Saldo Iklan Shopee',
+    category: 'Tiket, Voucher, & Layanan ',
+    value: 'A',
+  },
+  {
+    label: 'Shopee lainnya',
+    category: 'Tiket, Voucher, & Layanan ',
+    value: 'A',
+  },
+  {
+    label: 'Majalah & Koran',
+    category: 'Buku & Majalah',
+    value: 'A',
+  },
+  {
+    label: 'Buku Bacaan',
+    category: 'Buku & Majalah',
+    value: 'A',
+  },
+  {
+    label: 'E-Book',
+    category: 'Buku & Majalah',
+    value: 'A',
+  },
+  {
+    label: 'Buku & Majalah lainnya',
+    category: 'Buku & Majalah',
+    value: 'A',
+  },
+  {
+    label: 'Playstation',
+    category: 'Gaming & Konsol',
+    value: 'A',
+  },
+  {
+    label: 'Xbox',
+    category: 'Gaming & Konsol',
+    value: 'A',
+  },
+  {
+    label: 'Wii',
+    category: 'Gaming & Konsol',
+    value: 'A',
+  },
+  {
+    label: 'Nintendo 3DS & DS',
+    category: 'Gaming & Konsol',
+    value: 'A',
+  },
+  {
+    label: 'Gameboy',
+    category: 'Gaming & Konsol',
+    value: 'A',
+  },
+  {
+    label: 'Switch',
+    category: 'Gaming & Konsol',
+    value: 'A',
+  },
+  {
+    label: 'PS Vita',
+    category: 'Gaming & Konsol',
+    value: 'A',
+  },
+  {
+    label: 'PSP',
+    category: 'Gaming & Konsol',
+    value: 'A',
+  },
+  {
+    label: 'Konsol Game lainnya',
+    category: 'Gaming & Konsol',
+    value: 'A',
+  },
+  {
+    label: 'Aksesoris Konsol',
+    category: 'Gaming & Konsol',
+    value: 'A',
+  },
+  {
+    label: 'Video Game',
+    category: 'Gaming & Konsol',
+    value: 'A',
+  },
+  {
+    label: 'Gaming & Konsol lainnya',
+    category: 'Gaming & Konsol',
+    value: 'A',
+  },
+  {
+    label: 'Peralatan Kantor',
+    category: 'Komputer & Aksesoris',
+    value: 'B',
+  },
+  {
+    label: 'Printer & Scanner',
+    category: 'Komputer & Aksesoris',
+    value: 'B',
+  },
+  {
+    label: 'Aksesoris Desktop & Laptop',
+    category: 'Komputer & Aksesoris',
+    value: 'B',
+  },
+  {
+    label: 'Modem & Router Wireless',
+    category: 'Komputer & Aksesoris',
+    value: 'B',
+  },
+  {
+    label: 'Repeater',
+    category: 'Komputer & Aksesoris',
+    value: 'B',
+  },
+  {
+    label: 'Wireless Adapter & Kartu Network',
+    category: 'Komputer & Aksesoris',
+    value: 'B',
+  },
+  {
+    label: 'Powerline Adapter',
+    category: 'Komputer & Aksesoris',
+    value: 'B',
+  },
+  {
+    label: 'Switch Internet & PoE',
+    category: 'Komputer & Aksesoris',
+    value: 'B',
+  },
+  {
+    label: 'Kabel Network & Konektor',
+    category: 'Komputer & Aksesoris',
+    value: 'B',
+  },
+  {
+    label: 'KVM Switch',
+    category: 'Komputer & Aksesoris',
+    value: 'B',
+  },
+  {
+    label: 'Print Server',
+    category: 'Komputer & Aksesoris',
+    value: 'B',
+  },
+  {
+    label: 'Komponen Network lainnya',
+    category: 'Komputer & Aksesoris',
+    value: 'B',
+  },
+  {
+    label: 'Software',
+    category: 'Komputer & Aksesoris',
+    value: 'B',
+  },
+  {
+    label: 'Peralatan Kantor lainnya',
+    category: 'Komputer & Aksesoris',
+    value: 'B',
+  },
+  {
+    label: 'Tinta Printer',
+    category: 'Komputer & Aksesoris',
+    value: 'B',
+  },
+  {
+    label: 'Printer & Scanner lainnya',
+    category: 'Komputer & Aksesoris',
+    value: 'B',
+  },
+  {
+    label: 'USB HUB & Card Reader',
+    category: 'Komputer & Aksesoris',
+    value: 'B',
+  },
+  {
+    label: 'Pelindung Laptop & Skin Laptop',
+    category: 'Komputer & Aksesoris',
+    value: 'B',
+  },
+  {
+    label: 'Cooling Pad',
+    category: 'Komputer & Aksesoris',
+    value: 'B',
+  },
+  {
+    label: 'Meja & Stand Laptop',
+    category: 'Komputer & Aksesoris',
+    value: 'B',
+  },
+  {
+    label: 'Pelindung Keyboard & Trackpad',
+    category: 'Komputer & Aksesoris',
+    value: 'B',
+  },
+  {
+    label: 'Baterai Laptop',
+    category: 'Komputer & Aksesoris',
+    value: 'B',
+  },
+  {
+    label: 'Charger & Adaptor Laptop',
+    category: 'Komputer & Aksesoris',
+    value: 'B',
+  },
+  {
+    label: 'Mouse Pad',
+    category: 'Komputer & Aksesoris',
+    value: 'B',
+  },
+  {
+    label: 'Aksesoris Desktop & Laptop lainnya',
+    category: 'Komputer & Aksesoris',
+    value: 'B',
+  },
+  {
+    label: 'Mouse',
+    category: 'Komputer & Aksesoris',
+    value: 'B',
+  },
+  {
+    label: 'Keyboard',
+    category: 'Komputer & Aksesoris',
+    value: 'B',
+  },
+  {
+    label: 'Drawing Tablet',
+    category: 'Komputer & Aksesoris',
+    value: 'B',
+  },
+  {
+    label: 'Keyboard & Mouse lainnya',
+    category: 'Komputer & Aksesoris',
+    value: 'B',
+  },
+  {
+    label: 'Komputer & Aksesoris lainnya',
+    category: 'Komputer & Aksesoris',
+    value: 'B',
+  },
+  {
+    label: 'PC Desktop',
+    category: 'Komputer & Aksesoris',
+    value: 'C',
+  },
+  {
+    label: 'PC Mini',
+    category: 'Komputer & Aksesoris',
+    value: 'C',
+  },
+  {
+    label: 'Server PC',
+    category: 'Komputer & Aksesoris',
+    value: 'C',
+  },
+  {
+    label: 'All-in-One Desktop',
+    category: 'Komputer & Aksesoris',
+    value: 'C',
+  },
+  {
+    label: 'Laptop',
+    category: 'Komputer & Aksesoris',
+    value: 'C',
+  },
+  {
+    label: 'Desktop lainnya',
+    category: 'Komputer & Aksesoris',
+    value: 'C',
+  },
+  {
+    label: 'Monitor',
+    category: 'Komputer & Aksesoris',
+    value: 'C',
+  },
+  {
+    label: 'Fan & Heatsink',
+    category: 'Komputer & Aksesoris',
+    value: 'C',
+  },
+  {
+    label: 'Processor',
+    category: 'Komputer & Aksesoris',
+    value: 'C',
+  },
+  {
+    label: 'Motherboard',
+    category: 'Komputer & Aksesoris',
+    value: 'C',
+  },
+  {
+    label: 'VGA Card',
+    category: 'Komputer & Aksesoris',
+    value: 'C',
+  },
+  {
+    label: 'Thermal Paste',
+    category: 'Komputer & Aksesoris',
+    value: 'C',
+  },
+  {
+    label: 'Power Supply',
+    category: 'Komputer & Aksesoris',
+    value: 'C',
+  },
+  {
+    label: 'Memory RAM',
+    category: 'Komputer & Aksesoris',
+    value: 'C',
+  },
+  {
+    label: 'UPS & Stabilizer',
+    category: 'Komputer & Aksesoris',
+    value: 'C',
+  },
+  {
+    label: 'Casing Komputer',
+    category: 'Komputer & Aksesoris',
+    value: 'C',
+  },
+  {
+    label: 'Optical Drive',
+    category: 'Komputer & Aksesoris',
+    value: 'C',
+  },
+  {
+    label: 'Sound Card',
+    category: 'Komputer & Aksesoris',
+    value: 'C',
+  },
+  {
+    label: 'Komponen Desktop & Laptop lainnya',
+    category: 'Komputer & Aksesoris',
+    value: 'C',
+  },
+  {
+    label: 'Hard Disk',
+    category: 'Komputer & Aksesoris',
+    value: 'C',
+  },
+  {
+    label: 'SSD',
+    category: 'Komputer & Aksesoris',
+    value: 'C',
+  },
+  {
+    label: 'Network Attached Storage (NAS)',
+    category: 'Komputer & Aksesoris',
+    value: 'C',
+  },
+  {
+    label: 'Flashdisk & Flashdisk OTG',
+    category: 'Komputer & Aksesoris',
+    value: 'C',
+  },
+  {
+    label: 'Casing Hard Disk & Docking',
+    category: 'Komputer & Aksesoris',
+    value: 'C',
+  },
+  {
+    label: 'Compact Disc (CD)',
+    category: 'Komputer & Aksesoris',
+    value: 'C',
+  },
+  {
+    label: 'Penyimpanan Data lainnya',
+    category: 'Komputer & Aksesoris',
+    value: 'C',
+  },
+  {
+    label: 'Makanan Hewan',
+    category: 'Hewan Peliharaan',
+    value: 'B',
+  },
+  {
+    label: 'Aksesoris Hewan Peliharaan',
+    category: 'Hewan Peliharaan',
+    value: 'B',
+  },
+  {
+    label: 'Litter & Toilet',
+    category: 'Hewan Peliharaan',
+    value: 'B',
+  },
+  {
+    label: 'Grooming Hewan',
+    category: 'Hewan Peliharaan',
+    value: 'B',
+  },
+  {
+    label: 'Pakaian & Aksesoris Hewan',
+    category: 'Hewan Peliharaan',
+    value: 'B',
+  },
+  {
+    label: 'Perawatan Kesehatan Hewan',
+    category: 'Hewan Peliharaan',
+    value: 'B',
+  },
+  {
+    label: 'Hewan Peliharaan lainnya',
+    category: 'Hewan Peliharaan',
+    value: 'B',
+  },
+];
